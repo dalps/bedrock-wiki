@@ -88,7 +88,7 @@ For more information on components in entities, you can check out our page [here
 
 ### Stat Components
 
-These are the components that you will generally have on every entity. This define some core attributes to your entity.
+These are the components that you will generally have on every entity. They define some core attributes to your entity.
 
 <CodeHeader>BP/entities/ghost.se.json#minecraft:entity#components</CodeHeader>
 
@@ -115,7 +115,7 @@ These are the components that you will generally have on every entity. This defi
 },
 ```
 
-The components `minecraft:health` and `minecraft:attack` and `minecraft:movement` are straight forward and set the entities health, attack damage and movement speed. The collision box of an entity is the box within which the entity interacts with or collides with blocks or other entities. This is defined with `minecraft:collision_box` which will center the box on the middle on the entity.
+The components `minecraft:health` and `minecraft:attack` and `minecraft:movement` are straight forward and set the entity's health, attack damage and movement speed. The collision box of an entity is the box within which the entity interacts with or collides with blocks or other entities. This is defined with `minecraft:collision_box` which will center the box on the middle on the entity.
 
 `minecraft:type_family` adds family tags to the entity. Family tags are used to group entities in a similar category together. For example `monster` includes zombies, skeletons and creepers. This allows us to be able to select all entities with the `monster` tag.
 
@@ -145,7 +145,7 @@ You will always need a `movement` and `navigation` component if you want your en
 `minecraft:jump.static` allows your entity to jump up blocks for traversal. Both are used on almost every entity.
 
 There are few different types of movement components which allow different types of movement such as `minecraft:movement.swim` used by dolphins, `minecraft:movement.fly` used by parrots and `minecraft:movement.hover` used by bees.
-The `minecraft:movement.basic` component allows our entity to walk by moving over blocks. To make it seem like our entity is actually floating, we will use our geometry .
+The `minecraft:movement.basic` component allows our entity to walk by moving over blocks. To make it seem like our entity is actually floating, we will use our geometry.
 
 The navigation component is a pathfinder which defines what paths we allow our entity to follow. For example skeletons will try not to walk in sunlight, so their pathing stops them from taking paths that would put them in sunlight. Additionally, parrots can fly so they can path into the air unlike walking mobs.
 
