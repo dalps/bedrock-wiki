@@ -197,7 +197,7 @@ All item shortnames are stored in one file called `item_texture.json` which is i
 Here we have 3 top level definitions, `texture_data` is where we will define our shortnames, the other two define the type of file this is.
 The `resource_pack_name` is simply our resource pack's name and `texture_name` is what kind of texture file this is. Since this is for _items_, this will always be set to `atlas.items`.
 
-Under `texture_data` will our list of item shortname definitions. An example definition looks like this:
+Under `texture_data` we will put our list of item shortname definitions. An example definition looks like this:
 
 <CodeHeader>RP/textures/item_texture.json/texture_data</CodeHeader>
 
