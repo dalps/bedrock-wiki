@@ -164,7 +164,7 @@ To start we need a texture for our item. For our ectoplasm, we will be using thi
 
 ![ectoplasm.png](https://raw.githubusercontent.com/Bedrock-OSS/bedrock-examples/main/resouces/guide/rp/textures/items/ectoplasm.png)
 
-<Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-examples/main/resouces/guide/rp/textures/items/ectoplasm.png">
+<Button link="https://github.com/Bedrock-OSS/bedrock-examples/blob/main/resources/guide/rp/textures/items/ectoplasm.png">
     Download texture here
 </Button>
 
@@ -302,7 +302,7 @@ Your folder structure should look like this:
 
 </Spoiler>
 
-If you're having some trouble, check the [Troubleshooting page](/items/troubleshooting-items). If that doesn't help, compare your results with the [example files](https://github.com/Bedrock-OSS/bedrock-examples/tree/main/guide).
+If you're having some trouble, check the [Troubleshooting page](/items/troubleshooting-items). If that doesn't help, compare your results with the [example files](https://github.com/Bedrock-OSS/bedrock-examples/tree/main/resources/guide).
 
 ## Your Progress So Far
 
