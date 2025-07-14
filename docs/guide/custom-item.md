@@ -64,23 +64,23 @@ For our ectoplasm, we will set it to have a stack size of 16, similar to eggs. T
 
 In order for the game to apply the correct components to the correct item, we need to be able to tell the game which item is ours. We do this by defining an identifier for our item.
 
-An identifier is a name unique to this item. For a vanilla minecraft egg it's identifier is `minecraft:egg`. An identifier is made of two parts,
+An identifier is a name unique to this item. For a vanilla minecraft egg its identifier is `minecraft:egg`. An identifier is made of two parts,
 
 -   The namespace (`minecraft`)
 -   The id (`egg`)
 
 The namespace is unique to your add-on and you will use it throughout the project. This is to reduce issues if someone adds two packs to your game which both add an ectoplasm item; the namespace reduces the chance of the identifier being the same.
-The namespace that Minecraft use is `minecraft`. Your namespace should be unique to you, for example the authors initials or an abbreviation of the pack name. We will use the namespace `wiki` in our example; for more information on making a namespace check out our page [here](/concepts/namespaces).
+The namespace that Minecraft uses is `minecraft`. Your namespace should be unique to you, for example the authors initials or an abbreviation of the pack name. We will use the namespace `wiki` in our example; for more information on making a namespace check out our page [here](/concepts/namespaces).
 
 The id is an informative shorthand name for your item. Here we will use `ectoplasm`.
 
-Together our custom identifier becomes `wiki:ectoplasm`. Note that we use a colon, `:`, to spilt the namespace and id. When we want to reference our item we will use this identifier, for example using the `/give` command.
+Together our custom identifier becomes `wiki:ectoplasm`. Note that we use a colon, `:`, to split the namespace and id. When we want to reference our item we will use this identifier, for example using the `/give` command.
 
 ### Item File
 
 Now that we have our components and identifier, we can now start defining our item. We define an item by creating an item definition file in our behavior pack. This is where all our information will go.
 
-All item definitions go in `BP/items/`. The name of your file doesn't affect anything, but for ease of navigation it's recommend to name it after your id.
+All item definitions go in `BP/items/`. The name of your file doesn't affect anything, but for ease of navigation it's recommended to name it after your id.
 We will create a file `BP/items/ectoplasm.json`. Here is the the basic layout of the file:
 
 <CodeHeader>BP/items/ectoplasm.json</CodeHeader>
